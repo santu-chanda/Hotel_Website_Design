@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:white;
+    --backgroud_color: bisque;
+}
+/* body{
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: var(--backgroud_color);
+} */
+body{
+    margin-right: 0;
+    padding-right: 0;
+}
+.section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.section2{
+    margin-left: 10%;
+    padding-left: 0;
+    margin-right: 0;
+}
+.section1{
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.section1 ul{
+    display: flex;
+}
+.section1 ul li{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-grow: 1;
+}
+.section1 ul li h6{
+    padding-top: 3%;
+}
+header{
+    background-color: black;
+}
+main{
+    background-color: black;
+}
+span{
+    color: #d38321;
+}
+ul{
+    list-style: none;
+}
+.nav_list{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav_secondary_list h4{
+    float: right;
+    padding-left: 10px;
+    padding-right: 0;
+    margin-right: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+}
+a:hover{
+       color: rgb(179, 147, 52);
+       background-color: rgb(70, 38, 38);   
+}
+/* .main_heading{
+   clear: both;
+} */
+article nav ul{
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+.nav_primary_list{
+color: var(--color);
+}
+.icons{
+    width: 20px;
+}
+
+footer{
+    text-align: center ;
+    color: var(--color);
+    background-color: #3e3535;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: small;
+}
+table{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+table th{
+    text-align: left;
+    padding: 0.2rem;
+    font-size: small;
+    font-weight: 100;
+}
+table th h3{
+    font-size: large;
+    padding-bottom: 1%;
+    font-family: sans-serif;
+    font-weight:900;
+
+}
+table th .textbox{
+    width: 100%;
+}
+textarea {
+    resize: none;
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 0.2rem;
+}
+

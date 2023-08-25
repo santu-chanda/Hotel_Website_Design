@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:white;
+    --backgroud_color: bisque;
+}
+/* body{
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: var(--backgroud_color);
+} */
+
+.section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+main{
+    background-color: black;
+}
+span{
+    color: #d38321;
+}
+ul{
+    list-style: none;
+}
+.nav_list{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav_secondary_list h4{
+    float: right;
+    padding-left: 10px;
+    padding-right: 0;
+    margin-right: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+}
+a:hover{
+       color: rgb(179, 147, 52);
+       background-color: rgb(70, 38, 38);   
+}
+/* .main_heading{
+   clear: both;
+} */
+article nav ul{
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+.nav_primary_list{
+color: var(--color);
+/* padding-left: 30px; */
+}
+.about_image{
+    width: 11rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    float: right;
+}
+.about_article .about_image{
+    object-fit:fill;
+}
+/* .about_article div{
+border: 2px solid blueviolet;
+} */
+.person{
+    width: 4rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+}
+.person_section{
+    margin-top: 2rem;
+    background-color: #cd934c;
+    color: black;
+    height: 13vh;
+    padding-top: 1%;
+}
+.section1{
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+.section2{
+    clear: both;
+}
+.about_article{
+    height: 40vh;
+    text-align: left;
+    padding-top: 1rem;
+}
+.about_article h2{  
+   margin-bottom: 10px;
+}
+header{
+    padding-top: 2.4rem;
+    color: white;
+    text-align: center;
+    height: 50vh;
+    width: 100vw;
+    background-image: url(./images/test-bg.jpg);
+}
+header div ul li img{
+    float: left;
+}
+header div ul li{
+    height: 7vh;
+}
+header div ul{
+    padding: 1rem;
+    clear: both;
+}
+
+footer{
+    text-align: center ;
+    color: var(--color);
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
